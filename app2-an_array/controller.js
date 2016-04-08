@@ -1,0 +1,5 @@
+angular.module("arrayApp").controller("arrayController", function ($scope, arrayService) {
+
+ $scope.people = arrayService.getData();
+
+})
